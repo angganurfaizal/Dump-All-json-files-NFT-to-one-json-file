@@ -23,9 +23,12 @@ Extracting the desired output from JSON folder by using `os.walk`.
 Storing cleaned dictionaries into a list then use `json.dump` to load them into a single json file.
 
 ## Result
-The transformation yielded a 150 MB json file with only 1 file passed due to incorrect format.
+The transformation yielded an around 150 MB json file with only 1 file passed due to incorrect format.
 This process freed up 67% of your memory without no significant data missing and of course no `Memory Error` when processing data.
 In this project I also put sample files for you to try on.
+<div align="center">
+<img src="https://drive.google.com/uc?export=view&id=1SNNdu6EigQGJpHRzmSB2g66JRNxyM_np">
+</div><br />
 
 
 ## Running the Program using Sample Folder
