@@ -37,4 +37,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-cek = json.load(open('movies.json', encoding='utf-8'))
