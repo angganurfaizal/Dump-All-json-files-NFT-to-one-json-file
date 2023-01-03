@@ -1,0 +1,47 @@
+{
+  "name": "ETERNALS #5",
+  "description": "Death is the golden key that opens the palace of eternity ♰ A.D. XVI KAL. OCT. MMDCCLXXV A.U.C. ♰",
+  "image": "https://assets.eternalsxyz.io/eternalsxyz/images/5.png",
+  "dna": "2f44612be9d1aed403f1f8142b3767b508925445",
+  "edition": 5,
+  "date": 1663377357858,
+  "attributes": [
+    {
+      "trait_type": "LEGENDARY",
+      "value": "NONE"
+    },
+    {
+      "trait_type": "NAME",
+      "value": "NONE"
+    },
+    {
+      "trait_type": "BACKGROUND",
+      "value": "ORANGE"
+    },
+    {
+      "trait_type": "WINGS",
+      "value": "AQUA"
+    },
+    {
+      "trait_type": "BODY",
+      "value": "TATTOO"
+    },
+    {
+      "trait_type": "CLOTHES",
+      "value": "MALUM"
+    },
+    {
+      "trait_type": "HEADWEAR",
+      "value": "PRAETOR"
+    },
+    {
+      "trait_type": "MOUTH",
+      "value": "FUMUS"
+    },
+    {
+      "trait_type": "EYEWEAR",
+      "value": "FUTURISTIC"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

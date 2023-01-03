@@ -4,7 +4,7 @@ import os.path
 
 def main():
     fileList = []
-    path = 'movies'
+    path = 'metadata'
     for filenames in os.walk(path):
         fileList.append(filenames)
 
@@ -12,25 +12,15 @@ def main():
 
     for i in range(len(filenames[2])):
         try:
-            data = json.load(open('movies/' + filenames[2][i], encoding='utf-8'))
-            data_final = dict((k, data[k]) for k in ('original_title', 'budget', 'genres', 'popularity', "release_date",
-                                                     "revenue", "runtime", "vote_average", "vote_count", "spoken_languages"))
-            genres = []
-            for i in range(len(data_final["genres"])):
-                genres.append(data_final["genres"][i]['name'])
-            data_final["genres"] = ", ".join(genres)
-
-            spoken_languages = []
-            for i in range(len(data_final["spoken_languages"])):
-                genres.append(data_final["spoken_languages"][i]['name'])
-            data_final["spoken_languages"] = ", ".join(spoken_languages)
-
+            data = json.load(open('metadata/' + filenames[2][i], encoding='utf-8'))
+            data_final = dict((k, data[k]) for k in ('name', 'description', 'image', 'dna', 'edition', 'date', 'attributes', 'compiler'))
             data_list.append(data_final)
         except Exception:
             pass
 
-    out_file = open("movies.json", "w")
+    out_file = open("_metadata.json", "w")
     json.dump(data_list, out_file, indent=2)
+    print(data_list)
     out_file.close()
 
 

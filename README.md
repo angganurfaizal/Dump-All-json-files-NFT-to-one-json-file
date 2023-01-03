@@ -16,8 +16,6 @@ In this project you will see how to wrap many dictionaries from json files into 
 ## Extract
 Extracting the desired output from JSON folder by using `os.walk`.
 
-## Transform
-`genres` and `spoken_languages` field need to be transformed from list of dictionaries into the names.
 
 ## Load
 Storing cleaned dictionaries into a list then use `json.dump` to load them into a single json file.
@@ -36,7 +34,7 @@ In this project I also put sample files for you to try on.
     ```
     git clone https://github.com/eka-pramudita/academi-self-learning-1
     ```
-2. Change the path into `path = 'sample_movie'`. You can also specify your json file by setting `out_file = open("your_filename.json", "w")`
+2. Change the path into `path = 'metadata'`. You can also specify your json file by setting `out_file = open("_metadata.json", "w")`
 3. Run the program using this command in cmd.
     ```
     python main.py
